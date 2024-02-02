@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-size: 12px;
+    font-family: "montserrat", sans-serif;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: "poppins", sans-serif;
+}
+h3{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    color: white;
+
+}
+.name{
+    color: rgb(68, 68, 122);
+}
+p{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(68, 68, 122);
+    margin-bottom: 20px;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin: 0;
+    width: 50%;
+    padding: 15px;
+}
+.right{
+    margin: 0;
+    width: 50%;
+}
+.about-me{
+    width: 80%;
+    margin: 40px auto;
+}
+.p-aboutme{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(68, 68, 122);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.education{
+    width: 80%;
+    margin: 30px auto;
+}
+ol{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(68, 68, 122);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+ul{
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(68, 68, 122);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.skills{
+    width: 80%;
+    margin: 30px auto;
+}
+.projects{
+    width: 80%;
+    margin: 30px auto;
+}
+table{
+    width: 100%;
+    font-size: 14px;
+}
+tr th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    color: #222222;
+}
+tr td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    color: #222222;
+}
+#contact{
+    width: 80%;
+    margin: 30px auto;
+    font-size: 14px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.img-email{
+    margin-right: 5px;
+}
+.phone-img{
+    margin-right: 5px;
+}
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+}
+.input-email{
+    width: 250px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+form div{
+    margin-bottom: 10px;
+}
+.message-me{
+    padding: 6px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+.footer{
+    background: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
